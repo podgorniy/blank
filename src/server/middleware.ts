@@ -1,5 +1,6 @@
 import {Express} from 'express'
 import {isDev} from '../common/lib'
+import * as express from 'express'
 const Bundler = require('parcel-bundler')
 
 export function initMiddleware(app: Express) {
@@ -10,4 +11,5 @@ export function initMiddleware(app: Express) {
         sourceMaps: isDev()
     })
     app.use(bundler.middleware())
+    app.use(express.static('static'))
 }
