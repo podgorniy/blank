@@ -1,13 +1,12 @@
 import express = require('express')
 import {initMiddleware} from './middleware'
 import {initRoutes} from './routes'
-const DEV_PORT = 8888
+import {WEB_SERVER_PORT} from '../conf';
 
 export async function startServer() {
     const app = express()
     initMiddleware(app)
     initRoutes(app)
-    const appPort = process.env.PORT || DEV_PORT
-    app.listen(appPort)
-    console.log(`App started at ${appPort}`)
+    app.listen(WEB_SERVER_PORT)
+    console.log(`Web server started http://localhost:${WEB_SERVER_PORT}`)
 }
