@@ -1,4 +1,6 @@
+!.idea/inspectionProfiles/Project_Default.xml
 .idea
 .cache
 node_modules
-static/dist
+.dev
+

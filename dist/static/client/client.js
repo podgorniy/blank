@@ -1,0 +1,1 @@
+(function () {var b={};function c(){return!1}b.isDev=c;var a={};Object.defineProperty(a,"__esModule",{value:!0});b.isDev()?console.log("Welcome dev"):console.log("Welcome user");if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=a}else if(typeof define==="function"&&define.amd){define(function(){return a})}})();

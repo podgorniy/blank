@@ -1,4 +1,4 @@
-import {Express} from 'express';
+import {Express} from 'express'
 
 export function initRoutes(app: Express) {
     app.get('*', (req, res) => {

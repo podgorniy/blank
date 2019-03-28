@@ -1,3 +1,1 @@
-# Фуллстек expressjs на typescript
-
-### Не для продакшена
+# Web fullstack in typescript

@@ -4,7 +4,7 @@ import * as express from 'express'
 const Bundler = require('parcel-bundler')
 
 export function initMiddleware(app: Express) {
-    const bundler = new Bundler('./src/client/index.ts', {
+    const bundler = new Bundler('./src/client/client.ts', {
         outDir: 'static/dist',
         publicUrl: '/dist',
         contentHash: false,
