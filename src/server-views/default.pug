@@ -6,8 +6,8 @@ html
         link(rel="icon" href="favicon.png" sizes="16x16 32x32" type="image/png")
         title= title || 'FIXME'
         link(rel="stylesheet" href="/client/client.css")
+        script(defer src="/client/client.js")
     body
         div(id="app")
         script
-            != 'window["initialState"] = ' + JSON.stringify(initialState) + ';'
-        script(src="/client/client.js")
+            != 'window["initialAppState"] = ' + JSON.stringify(initialAppState) + ';'
