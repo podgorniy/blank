@@ -25,3 +25,4 @@ Reasonable and flexible boilerplate.
     - unit client/server.
 - Logging.
 - Docker.
+- ? grpc https://grpc.io/docs/tutorials/basic/node.html
