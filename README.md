@@ -24,5 +24,7 @@ Reasonable and flexible boilerplate.
     - e2e.
     - unit client/server.
 - Logging.
+- Shared client/server state
 - Docker.
 - ? grpc https://grpc.io/docs/tutorials/basic/node.html
+- p2p?

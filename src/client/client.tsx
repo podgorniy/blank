@@ -1,13 +1,14 @@
-import {App} from './App'
-import {render} from 'react-dom'
-import {AppState} from './app-state'
+import {App} from '../common/App'
+import {hydrate} from 'react-dom'
+import {AppState} from '../common/app-state'
 import {Provider} from 'mobx-react'
 import * as React from 'react'
 
 require('./client.less')
 
-const appState = new AppState(window['initialAppState'])
-render(
+const appState = new AppState(window['a'])
+window['aa'] = appState
+hydrate(
     <Provider appState={appState}>
         <App />
     </Provider>,

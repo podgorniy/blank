@@ -37,7 +37,7 @@
         "prettier": "^1.16.4",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
-        "sync-files": "^1.0.3",
+        "sync-files": "git+https://github.com/podgorniy/node-sync-files#v1.0.4",
         "typescript": "^3.1.6"
     }
 }

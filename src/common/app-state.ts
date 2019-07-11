@@ -1,5 +1,5 @@
 import {action, observable} from 'mobx'
-import {IInitialAppState} from '../common/interfaces'
+import {IInitialAppState} from './interfaces'
 
 export class AppState {
     constructor(initialState: IInitialAppState) {
