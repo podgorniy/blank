@@ -72,5 +72,5 @@ npm run docker-prod-cache
 - Logging.
 - Shared client/server state
 - [done] Docker.
-- ? grpc https://grpc.io/docs/tutorials/basic/node.html
+- [sucks] grpc https://grpc.io/docs/tutorials/basic/node.html
 - p2p?
