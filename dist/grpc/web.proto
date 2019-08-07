@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package web;
+
+service web {
+    rpc sayHello (HelloRequest) returns (stream HelloReply) {}
+}
+
+message HelloRequest {
+
+}
+
+message HelloReply {
+    string time = 1;
+}
+

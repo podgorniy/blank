@@ -1,0 +1,18 @@
+version: "3"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: app
+    env_file: .env
+    networks:
+      - appnetwork
+    ports:
+      - "8080:8080"
+      - "7788:7788" # hot module replacement
+    volumes:
+      - .:/srv/app
+networks:
+  appnetwork:
+    driver: bridge

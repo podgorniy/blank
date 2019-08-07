@@ -8,6 +8,6 @@ html
         link(rel="stylesheet" href="/client/client.css")
         script(defer src="/client/client.js")
     body
-        div(id="app")
+        div(id="app")!= contentString
         script
             != 'window["initialAppState"] = ' + JSON.stringify(initialAppState) + ';'
