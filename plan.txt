@@ -1,4 +1,2 @@
 update dependencies
     properly update sync-files from own repo
-get rid off root tsconfig.json
-prod version of docker
