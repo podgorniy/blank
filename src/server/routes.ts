@@ -1,10 +1,9 @@
-import { Express } from 'express'
+import {Express} from 'express'
 import ReactDOMServer from 'react-dom/server'
 import * as React from 'react'
-// import {Index} from '../common'
-import { AppState } from '../common/app-state'
-import { Provider } from 'mobx-react'
-import { App } from '../common/App'
+import {AppState} from '../common/app-state'
+import {Provider} from 'mobx-react'
+import {App} from '../common/App'
 
 export function initRoutes(app: Express) {
     app.get('/', (req, res) => {

@@ -12,7 +12,6 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var server_1 = __importDefault(require("react-dom/server"));
 var React = __importStar(require("react"));
-// import {Index} from '../common'
 var app_state_1 = require("../common/app-state");
 var mobx_react_1 = require("mobx-react");
 var App_1 = require("../common/App");

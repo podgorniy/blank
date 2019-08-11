@@ -1,8 +1,8 @@
 import express = require('express')
-import {initMiddleware} from './middleware'
-import {initRoutes} from './routes'
+import { initMiddleware } from './middleware'
+import { initRoutes } from './routes'
 import * as path from 'path'
-import {isDev} from '../common/lib'
+import { isDev } from '../common/lib'
 
 export function startServer() {
     const app = express()

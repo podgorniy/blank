@@ -9,7 +9,7 @@ export class AppState {
     @observable
     userName
 
-    @action
+    @action.bound
     setUserName(newName: string) {
         this.userName = newName
     }

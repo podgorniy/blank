@@ -18,7 +18,7 @@ var AppState = /** @class */ (function () {
         mobx_1.observable
     ], AppState.prototype, "userName", void 0);
     __decorate([
-        mobx_1.action
+        mobx_1.action.bound
     ], AppState.prototype, "setUserName", null);
     return AppState;
 }());
