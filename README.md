@@ -64,13 +64,12 @@ npm run docker-prod-cache
 
 ## Features wish list / ideas to play with
 
-- [done] Isomorphic react components.
-- MobX-friendly isomorphic router.
-- Tests.
+- [done] Isomorphic react components
+    - use helm for header data
+- MobX-friendly isomorphic router
+- Tests
     - e2e.
     - unit client/server.
-- Logging.
+- Logging
 - Shared client/server state
-- [done] Docker.
-- [sucks] grpc https://grpc.io/docs/tutorials/basic/node.html
-- p2p?
+- RPC over http
